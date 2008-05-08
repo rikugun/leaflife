@@ -1,0 +1,77 @@
+LeafLife DHTML Widgets
+    Copyright 2007 Huangchao. All rights reserved.
+
+Author
+    Huangchao (huangchaos@hotmail.com)
+
+WidgetLoader (version 1.0.3)
+    * 2008-03-15  - Add common methods such as JSON serialization, funtion hooking and so on.
+    * 2007-09-08  - Load script only once when declare multiple times.
+    * 2005-12-01  - Initial version.
+
+
+Map (version 1.0.17)
+    * 2008-03-08  - Add meta data about JSON2Java support.
+    * 2008-03-07  - Support map serialization.
+    * 2007-06-12  - Use Scripting.Dictionary as data structure instead of Object in IE.
+    * 2007-10-23  - Shrink key and value array when remove from map.
+    * 2007-08-26  - Add "each" and "invoke" method.
+    * 2006-09-17  - Initial version.
+
+
+Tree (version 1.2.27)
+    * 2008-03-20  - Clean the variables useless to prevent potential memory leak.
+    * 2008-02-20  - Fix wrong parameters of oncopy event.
+                    Change return value of ondrop event.
+                    Improve scrolling node into view.
+    * 2008-02-13  - Fix error while moving or copying to the node which children has not been loaded.
+                    Fix drag and drop problem in Firefox.
+                    Fix node expanding problem while loading tree data.
+    * 2007-12-27  - Add onmove and oncopy event.
+    * 2007-11-25  - Optimize TreeNode constructor.
+    * 2007-10-03  - Add onbeforeexpand and onbeforecollapse event.
+                    Fix scroll into view problem.
+    * 2007-09-23  - Add reload method and fix multiple event listeners problems.
+    * 2007-09-07  - Fix display problem while checkbox mix with radiobox.
+                    Uncheck checkbox and radiobox when move nodes between trees.
+    * 2007-08-24  - Support addEventListener and removeEventListener.
+    * 2007-08-18  - Refactor method name and configuration name.
+                    Add event listener in configuration.
+                    Support user-defined prefix icon.
+    * 2007-07-05  - Support drag and drop as sibling node.
+                    Support style sheet and theme.
+                    Change selfDragAndDropMode and treeDragAndDropMode definition.
+                    Support whether display prefix object or not.
+    * 2007-06-30  - Expand collpsed node while dragging over it.
+    * 2007-06-29  - Auto scroll node into view when click node.
+    * 2007-05-23  - Fix node display bugs when dragging node and optimize code.
+    * 2007-04-19  - Support different themes and user-defined images.
+    * 2007-04-15  - Support radiobox (two mode) and node sorting.
+    * 2007-04-08  - Support multiple root node.
+    * 2007-03-24  - Support user defined style sheet and node editing.
+                    Add garbage collection to prevent ie from memory leak.
+    * 2006-11-14  - Support node moving or copy within or between trees.
+    * 2006-10-04  - Support three states of checkbox.
+    * 2006-09-17  - Use Map as fundamental data structure.
+                    Refactor events and error routines.
+    * 2006-04-15  - Add some tree methods.
+    * 2006-03-14  - Add node double click event and right click event.
+                    Select tree node when right click.
+    * 2006-02-06  - Support node loading, addition, deletion and modification dynamically.
+    * 2006-02-02  - Support drag and drop, icon customization.
+    * 2006-01-31  - Boost display performance at node construction.
+    * 2006-01-20  - Support checkbox.
+    * 2006-01-12  - Support multiple trees.
+    * 2005-12-22  - Support auto collapsing of sibling nodes.
+    * 2005-12-01  - Initial version.
+
+
+Remote (version 0.4.3)
+    * 2008-04-12  - Add InvocationContext and JSONSerializable interface.
+    * 2008-04-04  - Support Firefox.
+                    Provide detail error messages.
+                    Remove possible memory leak risk.
+    * 2008-03-10  - Use pool for creating Remote object.
+    * 2008-02-24  - Support asynchronous and timeout configuration.
+    * 2007-11-19  - Extends Date serialization method.
+    * 2007-04-05  - Initial version.
