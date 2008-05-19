@@ -1,0 +1,140 @@
+.nodeText
+{
+    margin-left: 4px;
+    font-family: verdana,helvetica;
+    font-size: 9pt;
+    text-decoration: none;
+}
+.highlightedText
+{
+    color: #FFF;
+    background-color: #191970;
+}
+.draggedText
+{
+    color: #808080;
+    background-color: transparent;
+}
+.droppableText
+{
+    font-weight: bold;
+}
+.icon
+{
+    width: 16px;
+    height: 22px;
+}
+.imgBranchInactive
+{
+    background: url(node.gif) center 0px no-repeat;
+}
+.imgBranchActive
+{
+    background: url(node.gif) center -22px no-repeat;
+}
+.imgLeafInactive
+{
+    background: url(node.gif) center -44px no-repeat;
+}
+.imgLeafActive
+{
+    background: url(node.gif) center -66px no-repeat;
+}
+.imgBoxUnchecked
+{
+    background: url(check.gif) 0px center no-repeat;
+}
+.imgBoxChecked
+{
+    background: url(check.gif) -16px center no-repeat;
+}
+.imgBoxCheckedPartial
+{
+    background: url(check.gif) -32px center no-repeat;
+}
+.imgRadioUnchecked
+{
+    background: url(radio.gif) 0px center no-repeat;
+}
+.imgRadioChecked
+{
+    background: url(radio.gif) -16px center no-repeat;
+}
+.imgLoading
+{
+    background: url(loading.gif) center center no-repeat;
+}
+.imgPlus1
+{
+    background: url(hierarchy.gif) center 0px no-repeat;
+}
+.imgPlus2
+{
+    background: url(hierarchy.gif) center -22px no-repeat;
+}
+.imgPlus3
+{
+    background: url(hierarchy.gif) center -44px no-repeat;
+}
+.imgPlus4
+{
+    background: url(hierarchy.gif) center -66px repeat-y;
+}
+.imgMinus1
+{
+    background: url(hierarchy.gif) center -88px no-repeat;
+}
+.imgMinus2
+{
+    background: url(hierarchy.gif) center -110px no-repeat;
+}
+.imgMinus3
+{
+    background: url(hierarchy.gif) center -132px no-repeat;
+}
+.imgMinus4
+{
+    background: url(hierarchy.gif) center -154px repeat-y;
+}
+.imgLine1
+{
+    background: url(hierarchy.gif) center -176px no-repeat;
+}
+.imgLine2
+{
+    background: url(hierarchy.gif) center -198px no-repeat;
+}
+.imgLine3
+{
+    background: url(hierarchy.gif) center -220px no-repeat;
+}
+.imgLine4
+{
+    background: url(hierarchy.gif) center -242px repeat-y;
+}
+.imgLine5
+{
+    background: url(hierarchy.gif) center -264px repeat-y;
+}
+.editbox
+{
+    color: #000;
+    border: 1px solid #000;
+    background-color: #FFF;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#808080', Direction=135, Strength=2);
+}
+.dragHint
+{
+    font-family: verdana,helvetica;
+    font-size: 9pt;
+    color: #FFF;
+    background-color: #191970;
+    padding: 0px 2px 1px 2px;
+    white-space: nowrap;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70, StartY=0) progid:DXImageTransform.Microsoft.Shadow(color='#808080', Direction=135, Strength=4);
+    opacity: 0.5;
+}
+.droppableSibling
+{
+    border-top: 1px dotted #000;
+}
