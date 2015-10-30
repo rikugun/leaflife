@@ -1,0 +1,1 @@
+The leaflife project provides high efficiency and flexible dhtml widgets for web application which can be used in vary scenario (eg. ajax, cross-domain and SOA service etc.). Every widget can be used independently and does not rely on any javascript frameworks.
